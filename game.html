@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Die Game</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<link href='https://fonts.googleapis.com/css?family=ZCOOL KuaiLe' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+<body background="img/bg.png">
+
+	<div class="navbar">
+		<center>
+		<button onclick="window.location.href='index.html'">HOME</button>
+		<button onclick="newgame()">NEW GAME</button>
+		<button id="help">HELP</button>
+		</center>
+	</div>
+
+	<div id="help_txt">
+		<ul>
+			<li>The game starts by selecting a <span class="highlight">Target</span>.</li>
+			<li>Player 1 initiates the game by <span class="highlight">Roll</span> of the dice.</li>
+			<li>A player can continue to roll the die untill it encounters <span class="highlight">1</span>. After which other player gets the turn.</li>
+			<li>All outcomes will be added to the <span class="highlight">Current Score</span> of the player who rolls them, but will reset if <span>1</span> comes on the die.</li>
+			<li>To save current score from resetting, player has to <span class="highlight">Deal</span> it, which will add their <span class="highlight">Current score</span> to their <span class="highlight">Total Score</span>.</li>
+			<li>Whomever's <span class="highlight">Total Score</span> crosses the target first, <span class="highlight">WINS!!!!</span></li>
+		</ul>
+	</div>
+	
+
+	<div class="board">
+			<center>
+				<img class="target_img" src="img/target.png">
+				<p id="target_display"></p>
+			</center>
+			
+		<table>
+			<tr>
+				<td>
+					<h3 class="p_label" id="p1_label"><span class="logo" id="p1_logo">&#9763;</span>Player1:</h3>
+				</td>
+				<td></td>
+				<td>
+					<h3 class="p_label" id="p2_label"><span class="logo" id="p2_logo">&#9763;</span>Player2:</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="tot_score">
+						<p class="p_total" id="p1_total">0</p>
+					</div>
+				</td>
+				<td>
+					<center>
+					<div id="die_pic">
+						<img class="img" id="img1" src="img/1.png">
+						<img class="img" id="img2" src="img/2.png">
+						<img class="img" id="img3" src="img/3.png">
+						<img class="img" id="img4" src="img/4.png">
+						<img class="img" id="img5" src="img/5.png">
+						<img class="img" id="img6" src="img/6.png">
+					</div>
+					</center>
+				</td>
+				<td>
+					<div class="tot_score">
+						<p class="p_total" id="p2_total">0</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="curr_score">
+						<p class="p_curr" id="p1_curr">Current Score: 0</p>
+					</div>
+				</td>
+				<td>
+					<div class="roll_div" onclick="roll()">
+						<p class="roll_label">ROLL</p>
+					</div>
+				</td>
+				<td>
+					<div class="curr_score">
+						<p class="p_curr" id="p2_curr">Current Score: 0</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="high_score">
+						<p class="p_ts" id="p1_ts">Top Streak: 0</p>
+					</div>
+				</td>
+				<td>
+					<div class="deal_div" onclick="deal()">
+						<p class="deal_label">DEAL</p>
+					</div>
+				</td>
+				<td>
+					<div class="top_streak">
+						<p class="p_ts" id="p2_ts">Top Streak: 0</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<script src="js/game.js"></script>
+</html>
