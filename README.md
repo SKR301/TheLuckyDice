@@ -33,9 +33,9 @@ To play the game [click here](https://the-lucky-dice.web.app/)
 ## Screenshots
 Some screenshots of the program:-
 - *Home Page*<br />
-![Home Page](https://github.com/SKR301/TheLuckyDice/tree/master/ScreenShots/home.png)
-- *Game Page*<br />
-![Game Page](https://github.com/SKR301/TheLuckyDice/tree/master/ScreenShots/game.png)
+  ![Home Page](https://github.com/SKR301/TheLuckyDice/blob/master/ScreenShots/home.png)
+- *Block Page*<br />
+  ![Block Page](https://github.com/SKR301/TheLuckyDice/blob/master/ScreenShots/game.png)
 
 ## Contributors
 @SKR301- [Saurav Kumar](https://github.com/SKR301): Original Creator
