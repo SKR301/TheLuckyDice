@@ -19,7 +19,7 @@ To play the game [click here](https://the-lucky-dice.web.app/)
 1. Visit the [link](https://the-lucky-dice.web.app) or [alternative-link](https://the-lucky-dice.firebaseapp.com/).
 
 ### Start
-1. Download all project.
+1. Download the project.
 2. Open the `index.html` file.
 
 ## HowtoPlay
