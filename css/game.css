@@ -233,3 +233,8 @@ table
 	width: 100%;
 }
 
+.fa
+{
+	text-decoration: 'none';
+	color: #fff;
+} 

@@ -59,3 +59,9 @@ h1
 	bottom: 0;
 	width: 100%;
 }
+
+.fa
+{
+	text-decoration: 'none';
+	color: #fff;
+} 
