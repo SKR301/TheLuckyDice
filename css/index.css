@@ -48,3 +48,14 @@ h1
 	font-size:35px;
 	cursor: pointer;
 }
+
+.footer
+{
+	background-color: #08f;
+	padding: 10px;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
