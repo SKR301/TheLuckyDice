@@ -1,0 +1,26 @@
+.rocket
+{
+    position: relative;
+    animation: slideInFromRightAnimation 5s ease-in 1 normal forwards;
+}
+@keyframes slideInFromRightAnimation {
+    from {
+        bottom: 0%;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+.fade-in-after
+{
+    animation: fadeIn 2s linear 1 normal forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

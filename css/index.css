@@ -43,9 +43,6 @@ h1
 }
 .target_point button:hover
 {
-	width:300px;
-	height:75px;
-	font-size:35px;
 	cursor: pointer;
 }
 
@@ -64,4 +61,4 @@ h1
 {
 	text-decoration: 'none';
 	color: #fff;
-} 
+}
